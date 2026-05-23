@@ -1,0 +1,22 @@
+DESCRIÇÃO:
+Este conjunto de dados contém informações sobre clientes de um banco e seu status 
+de churn, que indica se eles saíram do banco ou não. É adequado para explorar 
+e analisar os fatores que influenciam o churn de clientes em instituições bancárias, 
+bem como para construir modelos preditivos para identificar clientes com risco de abandono.
+
+COLUNAS:
+- RowNumber:        número sequencial atribuído a cada linha do conjunto de dados.
+- CustomerId:       identificador único para cada cliente.
+- Surname:          sobrenome do cliente.
+- CreditScore:      pontuação de crédito do cliente.
+- Geography:        localização geográfica do cliente (ex.: país ou região).
+- Gender:           gênero do cliente.
+- Age:              idade do cliente.
+- Tenure:           número de anos que o cliente está com o banco.
+- Balance:          saldo da conta do cliente.
+- NumOfProducts:    número de produtos bancários que o cliente possui.
+- HasCrCard:        Indica se o cliente possui cartão de crédito (binário: sim/não).
+- IsActiveMember:   Indica se o cliente é um membro ativo (binário: sim/não).
+- EstimatedSalary:  salário estimado do cliente.
+- Exited:           Indica se o cliente saiu do banco (binário: sim/não).
+- ref_date:         Coluna gerada randômicamente (não existe no dataset original), referencia a data no padrão YYYYMM
